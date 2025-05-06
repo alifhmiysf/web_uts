@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Mahasiswa</title>
+  <style>
+    body {
+      background-image: url('https://images.pexels.com/photos/16737612/pexels-photo-16737612/free-photo-of-golden-summit.jpeg?auto=compress&cs=tinysrgb&w=3260&h=750&dpr=1');
+      background-size: cover;
+      color: white;
+      font-family: sans-serif;
+      padding: 50px;
+    }
+    h1 {
+      color: rgb(164, 187, 183);
+    }
+    .kotak {
+      background: rgba(0,0,0,0.5);
+      border-radius: 40px;
+      padding:100px;
+      text-align: center;
+    }
+    #profile-pic {
+      width: 120px;
+      border-radius: 50%;
+    }
+    table{
+        margin: 20px auto;
+    }
+    table, th, td {
+      border: 1px solid white;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="kotak">
+    <h1>Halo, Saya Ali &#128513;</h1> 
+    <img id="profile-pic" src="https://avatars.githubusercontent.com/u/107609258?v=4" alt="Foto Saya"><br><br>
+
+    <p>Nama saya adalah <b>Ali Fahmi Yusuf</b>. Saya sedang belajar HTML & CSS dasar.</p>
+
+    <h2>Data Pribadi</h2>
+    <table>
+      <tr><th>Nama</th><td>Ali Fahmi Yusuf</td></tr>
+      <tr><th>NIM</th><td>245410015</td></tr>
+      <tr><th>Email</th><td>ali.fahmi24@students.utdi.ac.id</td></tr>
+    </table>
+
+    <h2>Peta Kampus</h2>
+    <map name="lokasi">
+      <area shape="rect" coords="0,0,400,200" href="https://g.co/kgs/ozvGV6U" alt="Peta">
+    </map>
+    <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqYrfAhd_85WfBklIwoNhlaShTKVQJEgNnxm1_mrgVEsZFr9GJ1UuBFewZVtmY1NzBCgFcTL6CeSTLb0xdhyY2rluZk2iG3nEdVsQkBe7z6o0thWe9MirTHOvbXG9ynwvfQSOyI9A=s680-w680-h310-rw" usemap="#lokasi" alt="Peta">
+
+    <h2>Website Universitas Teknologi Digital Indonesia</h2>
+    
+    <iframe src="https://www.utdi.ac.id/" title="Web UTDI"></iframe>
+  </div>
+</body>
+</html>
